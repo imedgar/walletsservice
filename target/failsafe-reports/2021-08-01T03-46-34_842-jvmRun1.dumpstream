@@ -1,0 +1,39 @@
+# Created at 2021-08-01T03:46:44.114
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-08-01T03:46:44.303
+Unexpected IOException with stream: 2021-08-01 03:46:44.302  INFO 64674 --- [           main] c.p.tests.wallet.WalletApplicationIT     : Started WalletApplicationIT in 8.558 seconds (JVM running for 9.32)
+
+
+# Created at 2021-08-01T03:46:44.304
+Unexpected IOException with stream: 2021-08-01 03:46:44.304  INFO 64674 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2021-08-01T03:46:44.306
+Unexpected IOException with stream: 2021-08-01 03:46:44.305  INFO 64674 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-08-01T03:46:44.306
+Unexpected IOException with stream: 2021-08-01 03:46:44.306  INFO 64674 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+
+# Created at 2021-08-01T03:46:44.307
+Unexpected IOException with stream: 2021-08-01 03:46:44.307  INFO 64674 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+# Created at 2021-08-01T03:46:44.313
+Unexpected IOException with stream: 2021-08-01 03:46:44.313  INFO 64674 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+
+
+# Created at 2021-08-01T03:46:44.316
+Unexpected IOException with stream: 2021-08-01 03:46:44.316  INFO 64674 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+

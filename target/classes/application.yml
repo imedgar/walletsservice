@@ -1,0 +1,28 @@
+spring.profiles.active: develop
+server:
+  port: 8090
+---
+spring:
+  profiles: develop
+  jpa:
+    show_sql: false
+    database: H2
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE;IGNORECASE=TRUE
+    initialize: false
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+server:
+  error:
+    include-message: always
+---
+spring:
+  profiles: test
+  jpa:
+    show_sql: false
+    database: H2
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE;IGNORECASE=TRUE
+    initialize: false
