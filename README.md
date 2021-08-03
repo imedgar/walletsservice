@@ -1,6 +1,6 @@
 # Wallets Service
 
-Technical test for Playtomic
+Technical test
 
 ## Getting Started
 
@@ -57,7 +57,7 @@ Response:
 }
 ```
 
-###Recharge money in that wallet using a credit card number. It has to charge that amount internally using a third-party platform.
+### Recharge money in that wallet using a credit card number. It has to charge that amount internally using a third-party platform.
 Request:
 ```
 curl --request PUT \
@@ -79,7 +79,7 @@ Response:
 }
 ```
 
-###Subtract an amount from a wallet (that is, make a charge in that wallet).
+### Subtract an amount from a wallet (that is, make a charge in that wallet).
 Request:
 ```
 curl --request PUT \
